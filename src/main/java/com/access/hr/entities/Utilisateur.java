@@ -9,6 +9,7 @@ import javax.persistence.Id;
 @Entity
 @SuppressWarnings("serial")
 public class Utilisateur implements Serializable {
+	
 	@Id
 	@GeneratedValue
 	private Long idUtilisateur;
